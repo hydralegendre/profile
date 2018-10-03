@@ -54,8 +54,10 @@ a:hover {
 }
 
 .container {
-  width: 500px;   /* This sets the width */
-  margin: 0 auto; /* This automatically sets left/right margins */
+/*  width: 700px;    This sets the width
+  margin: 0 auto;*/
+  width: 80%;
+  margin: 30px auto; /* This automatically sets left/right margins */
 }
 
 .card {

@@ -1,0 +1,118 @@
+body {
+  background-color : #ededed;
+  color: #606060;
+  font-family: roboto;
+  font-size: 15 px;
+  line-height: 15 px;
+  font-weight: 300;
+}
+
+h1, h2, h3 {
+  color: #606060;
+  font-size: 18 px;
+  line-height: :25 px;
+  font-weight: 300;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+a {
+  color: #606060;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a:hover {
+  color: grey;
+}
+
+.card:hover {
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  padding : 20px 20px;
+}
+
+.logo {
+  height : 100px;
+  width: 100px;
+  padding-right: 10px;
+}
+
+#name {
+  color : #DD5555;
+  font-size: 30px;
+  font-weight: 600;
+}
+#profile-picture {
+  border-radius: 50%;
+  border: 10px solid #ECECEC;
+}
+
+.text-justify {
+ text-align: justify;
+}
+
+.list_inline {
+  padding-left: 0px;
+}
+
+ul {
+  padding: 0px;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 20px;
+}
+
+.btn-red {
+  background-color: #DD5555;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.btn-red:hover {
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+  color: white;
+}
+
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}

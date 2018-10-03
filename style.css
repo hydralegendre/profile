@@ -33,6 +33,22 @@ a:hover {
   color: grey;
 }
 
+#sidebar {
+    background-color: #384047;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 100px;
+    text-align: center;
+}
+
+.sidebar-design a i {
+  color: #DD5555;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
 .card:hover {
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
 }
